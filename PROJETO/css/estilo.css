@@ -1,0 +1,44 @@
+body {
+	background: #ffff;
+	font-family: 'Roboto', sans-serif;
+	font-size:18px;
+}
+
+section {
+	margin:auto;
+	width:100%;
+}
+
+header {
+	background-color:#CEAA9A;
+	height:200px;
+	width:100%;
+}
+
+nav {
+	height: 100px;
+	width:100%;
+	text-align:center;
+}
+
+main {
+	height:600px;
+	text-align:justify;
+	font-family:;
+	font-size:20px;
+}
+
+footer {
+	height: 100px;
+	text-align:justify;
+	background:#E8D8D5;
+	font-family:;
+}
+
+.logo {
+	text-align:center;
+}
+
+.pesquisa {
+	float:right;
+}
