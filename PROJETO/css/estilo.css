@@ -22,7 +22,7 @@ nav {
 }
 
 main {
-	height:600px;
+	height:700px;
 	text-align:justify;
 	font-family:;
 	font-size:20px;
@@ -31,7 +31,7 @@ main {
 footer {
 	height: 100px;
 	text-align:justify;
-	background:#E8D8D5;
+	background:#CEAA9A;
 	font-family:;
 }
 
@@ -42,3 +42,15 @@ footer {
 .pesquisa {
 	float:right;
 }
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    margin: 0px;
+    padding: 0px;
+    grid-template-rows: 2fr -2fr 2fr;
+    grid-template-areas: "h h h"
+                         "a m m"
+                         "f f f"
+}
+
