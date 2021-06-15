@@ -1,0 +1,73 @@
+body {
+	background: #ffff;
+	font-family: 'Roboto', sans-serif;
+	font-size:18px;
+}
+
+section {
+	margin:auto;
+	width:100%;
+}
+
+header {
+	background-color:#CEAA9A;
+	height:200px;
+	width:100%;
+}
+
+nav {
+	height: 100px;
+	width:100%;
+	text-align:center;
+}
+
+main {
+	height:780px;
+	text-align:justify;
+	font-family:;
+	font-size:20px;
+}
+
+footer {
+	height:200px;
+	text-align:justify;
+	background:#CEAA9A;
+	font-family:;
+}
+
+.logo {
+	text-align:center;
+}
+
+.pesquisa {
+	float:right;
+}
+
+.card-body {
+	text-align:center;
+	font-family: ;
+}
+
+.texto1 {
+	text-align:center;
+	float:left;
+	font-size: 16px;
+	padding-left:1%;
+	padding-top:2%;
+}
+
+.texto2 {
+	text-align:center;
+	float:left;
+	font-size: 16px;
+	padding-left:6%;
+	padding-top:2%;
+}
+
+.texto3 {
+	text-align:justify;
+	float:left;
+	font-size: 16px;
+	padding-left:6%;
+	padding-top:2%;
+}
