@@ -9,6 +9,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 	<link href="css/estilo.css" rel="stylesheet">
+	
+	<!--Fontes-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	
+	<!--Icon-->
+	<link rel="shortcut icon" href="img/favicon.ico" />
 
     <title>Street Brechó | Promoções</title>
   </head>
@@ -16,53 +29,46 @@
     <section>
 	<header>
 		<div class="logo">
-			<img src="img/logo.jpg" alt="Logo" style="text-align:center;" alt="logo" height=150px; width=150px;>
+			<img src="img/logo.jpg" alt="Logo" style="text-align:center;" height=150px; width=150px;>
 		</div>
 	
 		<div class="pesquisa">
 		<form class="form-inline">
-			<input class="form-control mr-sm-2" type="search" placeholder="O que você procura?" aria-label="Pesquisar" style="width:500px;">
+			<input class="form-control mr-sm-2" type="search" placeholder="O que você procura?" aria-label="Pesquisar" style="width:300px;">
 			<button class="btn btn-light" type="submit">
-			<img src="img/pesquisa-de-lupa.png" height=20px; width=20px;>
+			<img src="img/lupa.png" height=20px; width=20px;>
 			</button>
 		</form>
-		<div>
+		</div>
 	</header>
 	
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		
-		<div class="dropdown">
-			<button class="btn btn-light" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				<img src="img/botao-de-menu.png" alt="menu" height=30px; width=30px;>
-			</button>
-		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-			<a class="dropdown-item" href="#">Moletons</a>
-			<a class="dropdown-item" href="#">Calças</a>
-			<a class="dropdown-item" href="#">Camisas</a>
-			<a class="dropdown-item" href="#">Acessórios</a>
-		</div>
-		</div>
-		
-		<div class="collapse navbar-collapse" id="navbarNavDropdown">
-		<ul class="navbar-nav">
-		<li class="nav-item">
-		<a class="nav-link" href="index.html">Home<span class="sr-only">(Página atual)</span></a>
-		</li>
-		<li class="nav-item">
-        <a class="nav-link" href="promocoes.html">Promoções</a>
-		</li>
-		<li class="nav-item">
-        <a class="nav-link" href="#">Garimpos</a>
-		</li> 
-		<li class="nav-item">
-        <a class="nav-link" href="autorais.html">Peças autorais</a>
-		</li>
-		</ul>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse d-lg-flex justify-content" id="navbarSupportedContent">
+		  <div class="container">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="promocoes.html">Promoções</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="garimpos.html">Garimpos</a>
+              </li>
+			  <li class="nav-item active">
+                <a class="nav-link" href="autorais.html">Peças autorais</a>
+              </li>
+            </ul>
+          </div>
 		</div>
 		
 		<form class="form-inline">
 			<a href="#" type="button">
-				<img src="img/carrinho-de-compras.png" alt="carrinho" height=30px; width=30px;>
+				<img src="img/carrinho.png" alt="carrinho" height=30px; width=30px;>
 			</a>
 		</form>
 	</nav>
@@ -108,7 +114,7 @@
      </div>
 	 
 	  <div id="card1" class="card" style="width:18rem; padding-top:1%; border:solid 1px; border-radius:1rem;">
-       <img class="card-img-top" src="img/moletom-cropped.jpg" alt="Moletom cropped" width="300px;" height="300px;">
+       <img class="card-img-top" src="img/moletomcropped.jpg" alt="Moletom cropped" width="300px;" height="300px;">
        <div class="card-body">
          <p class="card-text">
 		 Moletom cropped
@@ -122,7 +128,7 @@
      </div>	  
 	 
 	 <div id="card1" class="card" style="width:18rem; padding-top:1%; border:solid 1px; border-radius:1rem;">
-       <img class="card-img-top" src="img/calca-moletom.jpg" alt="Calça de Moletom" width="300px;" height="350px;">
+       <img class="card-img-top" src="img/calcamoletom.jpg" alt="Calça de Moletom" width="300px;" height="350px;">
        <div class="card-body">
          <p class="card-text">
 		 Calça de moletom
@@ -141,7 +147,7 @@
 	</main>
 	
 	<footer>
-		<div class="texto1">
+			<div class="texto1">
 			<h5>INFORMAÇÕES</h5>
 			<a href="#">Sobre o brechó</a>
 			<br>
@@ -178,10 +184,16 @@
 			<br>
 			<h5>Cadastre-se para receber mais informações</h5>
 			<form class="form-inline" action="endereço da página e/ou arquivo que processa os dados" method="post">
-				<input type="email" id="email" name="email" class="form-control" placeholder="Digite seu email" required>
-				<input type="submit" class="btn btn-dark" value="Enviar">
+				<input type="email" name="email" id="Cadastroemail" class="form-control"  placeholder="Digite seu e-mail">
+				<input type="submit" name="botao" id="idBotao" class="btn btn-dark" onclick="mensagem();" value="Enviar">
 			</form>
 			
+			<script>
+				function mensagem() {
+					var valorNome = document.getElementById("idNome").value;
+					alert("Enviamos um email para  " + " " + Cadastroemail + "," + " " + "por favor, confirme-o.");
+			</script>
+			</div>
 		</div>
 	</footer>
 	
