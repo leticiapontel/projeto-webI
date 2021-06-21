@@ -72,3 +72,27 @@ footer {
 	padding-left:6%;
 	padding-top:2%;
 }
+
+.container-fluid {
+	font-family: 'Open Sans', sans-serif;
+	font-size:20px;
+}
+
+h2, h3, h4, h5 {
+	font-family:'Montserrat', sans-serif;
+	text-align:center;
+}
+
+@media screen and (max-width:480px) {
+	header {width:auto;}
+	nav {width:auto; height:auto;}
+	main{width:auto; height:auto;}
+	footer{clear:both; width:auto; height:auto;}
+}
+
+@media screen and (max-width:768px) {
+	header {width:auto;}
+	nav {width:auto; height:auto;}
+	main{width:auto; height:auto;}
+	footer{height:650px; width:auto;}
+}
